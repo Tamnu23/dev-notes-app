@@ -1,7 +1,5 @@
 # Dev Notes API (Foundation Phase)
 
-[![status: draft](https://img.shields.io/badge/status-draft-yellow)]() [![node](https://img.shields.io/badge/node-%3E%3D16-brightgreen)]() [![license](https://img.shields.io/badge/license-MIT-blue)]()
-
 Short description
 A minimal, production-minded backend starter using Node.js, Express and TypeScript. This repository contains the Week 1 foundation: deterministic startup, strict runtime validation, and clean module boundaries.
 
@@ -129,24 +127,4 @@ Troubleshooting
 - If the app crashes on startup, check the console — the env validator will print which variable is missing.
 - Ensure `.env` is in the repository root for local dev or set env vars in your process/CI.
 
-Suggestions / Next steps
-- Add a minimal health-check endpoint (`GET /health`) and document it here.
-- Add CI badges (GitHub Actions) and unit test instructions.
-- Add a CONTRIBUTING.md and a simple code-of-conduct if the repo will accept contributors.
-- Consider a Dockerfile and a `docker-compose` dev setup if you plan on containerized development.
-- Document any environment variables beyond `PORT` (e.g., DB connection strings).
 
-Contributing
-If you want to help, please open issues or PRs. Describe the problem, include steps to reproduce, and include tests when possible.
-
-License
-Add your license here (e.g., MIT) and a LICENSE file.
-
-Outcome of Week 1
-By the end of Week 1, the project has:
-- deterministic startup behavior
-- explicit configuration validation
-- clean architectural boundaries
-- documented failure cases and fixes
-
-This foundation enables safe feature development in later phases.
